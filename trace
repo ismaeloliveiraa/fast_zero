@@ -1,0 +1,838 @@
+versions pytest-8.3.5, python-3.13.3.final.0
+invocation_dir=C:\Users\Ismael\Documents\projects\fast_zero
+cwd=C:\Users\Ismael\Documents\projects\fast_zero
+args=('--debug=trace',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000001C3B0035E80>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000001C3B0035E80>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C3B1DD2900>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C3B1DD2BA0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+          plugin_name: 1939981695168
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001C3B0035E80>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\anyio\\pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py'>
+          plugin_name: pytest_cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C3B1DD2120>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C3B1DA74D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C3B1DD2900>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C3B1DD2BA0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001C3B2690050>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001C3B2690590>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+          plugin_name: 1939981695168
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001C3B0035E80>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\anyio\\pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from 'C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py'>
+          plugin_name: pytest_cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C3B1DD2120>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C3B1DA74D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C3B1DD2900>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C3B1DD2BA0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001C3B2690050>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001C3B2690590>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001C3B1DD2660>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C3AFEB78C0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x000001C3B0035E80>
+          start_path: C:\Users\Ismael\Documents\projects\fast_zero
+          startdir: C:\Users\Ismael\Documents\projects\fast_zero
+      early skip of rewriting module: importlib.metadata._adapters [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: urllib [assertion]
+      early skip of rewriting module: urllib.parse [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      early skip of rewriting module: importlib.metadata._text [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: C:\\Users\\Ismael\\Documents\\projects\\fast_zero', 'configfile: pyproject.toml', 'plugins: anyio-4.9.0, cov-6.1.1'], ['using: pytest-8.3.5', 'registered third-party plugins:', '  anyio-4.9.0 at C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\anyio\\pytest_plugin.py', '  pytest-cov-6.1.1 at C:\\Users\\Ismael\\Documents\\projects\\fast_zero\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\Users\\Ismael\\Documents\\projects\\fast_zero'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/Users/Ismael/Documents/projects/fast_zero'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: C:\Users\Ismael\Documents\projects\fast_zero
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir fast_zero> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir fast_zero> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir fast_zero>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir fast_zero>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.coverage
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.coverage
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\.coverage
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.coverage
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.git
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.gitignore
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\.gitignore
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.pytest_cache
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.python-version
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.python-version
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\.python-version
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.python-version
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.ruff_cache
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.ruff_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\.venv
+            path: C:\Users\Ismael\Documents\projects\fast_zero\.venv
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\README.md
+            path: C:\Users\Ismael\Documents\projects\fast_zero\README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\README.md
+            path: C:\Users\Ismael\Documents\projects\fast_zero\README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\__pycache__
+            path: C:\Users\Ismael\Documents\projects\fast_zero\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero
+            parent: <Dir fast_zero>
+        finish pytest_collect_directory --> <Dir fast_zero> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov
+            parent: <Dir fast_zero>
+        finish pytest_collect_directory --> <Dir htmlcov> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\main.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\main.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\main.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\main.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\pyproject.toml
+            path: C:\Users\Ismael\Documents\projects\fast_zero\pyproject.toml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\pyproject.toml
+            path: C:\Users\Ismael\Documents\projects\fast_zero\pyproject.toml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\test
+            path: C:\Users\Ismael\Documents\projects\fast_zero\test
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\Ismael\Documents\projects\fast_zero\test
+            parent: <Dir fast_zero>
+        finish pytest_collect_directory --> <Dir test> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\trace
+            path: C:\Users\Ismael\Documents\projects\fast_zero\trace
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\trace
+            path: C:\Users\Ismael\Documents\projects\fast_zero\trace
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\uv.lock
+            path: C:\Users\Ismael\Documents\projects\fast_zero\uv.lock
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\uv.lock
+            path: C:\Users\Ismael\Documents\projects\fast_zero\uv.lock
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=3 outcome='passed'> [hook]
+    genitems <Dir fast_zero> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir fast_zero>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir fast_zero>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\__ini__.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\__ini__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\__ini__.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\__ini__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\app.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\app.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir fast_zero>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\app.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\fast_zero\app.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'fast_zero' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'fast_zero' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir htmlcov> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir htmlcov>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir htmlcov>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\.gitignore
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\.gitignore
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\class_index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\class_index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\class_index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\class_index.html
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\coverage_html_cb_497bf287.js
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\coverage_html_cb_497bf287.js
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\coverage_html_cb_497bf287.js
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\coverage_html_cb_497bf287.js
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\favicon_32_cb_58284776.png
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\favicon_32_cb_58284776.png
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\favicon_32_cb_58284776.png
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\favicon_32_cb_58284776.png
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\function_index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\function_index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\function_index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\function_index.html
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\index.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\index.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\index.html
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\keybd_closed_cb_ce680311.png
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\keybd_closed_cb_ce680311.png
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\keybd_closed_cb_ce680311.png
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\keybd_closed_cb_ce680311.png
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\status.json
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\status.json
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\status.json
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\status.json
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\style_cb_718ce007.css
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\style_cb_718ce007.css
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\style_cb_718ce007.css
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\style_cb_718ce007.css
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\z_9a1c41c84ecadd61___ini___py.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\z_9a1c41c84ecadd61___ini___py.html
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir htmlcov>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\z_9a1c41c84ecadd61___ini___py.html
+            path: C:\Users\Ismael\Documents\projects\fast_zero\htmlcov\z_9a1c41c84ecadd61___ini___py.html
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'htmlcov' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'htmlcov' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir test> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir test>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir test>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            collection_path: C:\Users\Ismael\Documents\projects\fast_zero\test\__ini__.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\test\__ini__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir test>
+            file_path: C:\Users\Ismael\Documents\projects\fast_zero\test\__ini__.py
+            path: C:\Users\Ismael\Documents\projects\fast_zero\test\__ini__.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x000001C3B0035E80>
+          items: []
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000001C3B0035E80>
+            items: []
+            start_path: C:\Users\Ismael\Documents\projects\fast_zero
+            startdir: C:\Users\Ismael\Documents\projects\fast_zero
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.NO_TESTS_COLLECTED: 5> testsfailed=0 testscollected=0>
+        exitstatus: 5
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001C3B2690050>
+          exitstatus: 5
+          config: <_pytest.config.Config object at 0x000001C3B0035E80>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000001C3B0035E80>
+    finish pytest_unconfigure --> [] [hook]
